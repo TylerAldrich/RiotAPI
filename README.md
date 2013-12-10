@@ -11,7 +11,8 @@ Learn more about Requests from here: http://requests.readthedocs.org/en/latest/
 This module provides some convenience functionality. You are able to make all API calls by just providing the summoner name, instead of having to call get_summoner_by_name and getting the ID from the returned JSON.
 
 An example of using the module:
-`
+
+```
 from riot import LoLAPI
 
 key = "<YOUR API KEY>""
@@ -74,7 +75,4 @@ print api.get_all_champions()
 # Gets all current free champions
 print api.get_free_champions()
 
-
-
-
-`
+```
