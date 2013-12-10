@@ -15,7 +15,7 @@ An example of using the module:
 ```
 from riot import LoLAPI
 
-key = "<YOUR API KEY>""
+key = "<YOUR API KEY>"
 api = LoLAPI(key)
 
 # Get summonor info by id
