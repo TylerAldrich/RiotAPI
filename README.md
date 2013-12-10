@@ -48,7 +48,8 @@ print api.get_teams_for_summoner("N1nj4l3m0n")
 # Get ranked stats by summoner id
 print api.get_ranked_stats_by_id(20385910)
 
-# You can get ranked stats for normals/ranked with an ID or Summoner name, and an specify season=3, season=4, or nothing (defaults to all seasons)
+# You can get ranked stats for normals/ranked with an ID or Summoner name,
+# and can specify season=3, season=4, or nothing (defaults to all seasons)
 print api.get_normal_stats_by_id(20385910, season=3)
 
 # Gets normal stats for given summoner name
