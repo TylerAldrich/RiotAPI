@@ -136,26 +136,3 @@ class LoLAPI():
         else:
             raise HTTPException(str(status) + " error - unknown")
 
-
-if __name__ == "__main__":
-    key = "c7f893e1-0fd7-4ee3-a435-be56b5ca2a38"
-    api = LoLAPI(key)
-    #print api.get_summoner_by_id(20385910)
-    #print api.get_summoners_by_id([20385910, 21684331])
-    #print api.get_summoner_by_name("N1nj4l3m0n")
-    #print api.get_rune_pages_by_id(20385910)
-    #print api.get_rune_pages_by_summoner("N1nj4l3m0n")
-    #print api.get_masteries_by_id(20385910)
-    #print api.get_masteries_by_summoner("N1nj4l3m0n")
-    #print api.get_teams_for_id(20385910)
-    #print api.get_teams_for_summoner("Shadeviper")
-    #print api.get_ranked_stats_by_id(20385910)
-    #print api.get_normal_stats_by_id(20385910, season=3)
-    #print api.get_normal_stats_by_summoner("N1nj4l3m0n")
-    #print api.get_ranked_stats_by_summoner("N1nj4l3m0n")
-    #print api.get_league_data_by_id(20385910)
-    #print api.get_league_data_by_summoner("N1nj4l3m0n")
-    #print api.get_recent_games_by_id(20385910)
-    #print api.get_recent_games_by_summoner("N1nj4l3m0n")
-    #print api.get_all_champions()
-    #print api.get_free_champions()
