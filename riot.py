@@ -126,13 +126,13 @@ class LoLAPI():
 
     def get_status_error(self, status):
         if status == 400:
-            raise HTTPException("400 error - bad request")
+            raise HTTPException("400 Error - Bad Request")
         elif status == 401:
-            raise HTTPException("401 error - invalid URL")
+            raise HTTPException("401 Error - Invalid URL")
         elif status == 404:
-            raise HTTPException("404 error - summoner not found")
+            raise HTTPException("404 Error - Summoner Not Found")
         elif status == 500:
-            raise HTTPException("500 error - internal server error")
+            raise HTTPException("500 Error - Internal Server Error")
         else:
-            raise HTTPException(str(status) + " error - unknown")
+            raise HTTPException(str(status) + " Error - Unknown")
 
